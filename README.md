@@ -105,24 +105,6 @@ sudo python3 sniffer.py \
 
 ---
 
-## 🚀 Deployment
-
-### Option 1 — Open locally
-```bash
-# Just open in browser
-open index.html
-```
-
-### Option 2 — GitHub Pages
-1. Push this folder to a GitHub repo
-2. Go to **Settings → Pages → Deploy from branch → main / root**
-3. Access at `https://<username>.github.io/<repo>/`
-
-### Option 3 — Python local server
-```bash
-cd soc-dashboard
-python3 -m http.server 8080
-# Visit http://localhost:8080
 ```
 
 ---
