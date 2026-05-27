@@ -117,7 +117,7 @@ sudo python3 sniffer.py \
 | 5 | Docker services · Tailscale VPN · Pi-hole · Home Assistant |
 | 6 | Splunk Enterprise VM · Universal Forwarder · anomaly detection |
 | 7 | Debugging · argparse CLI · rich terminal dashboard · CSV logging |
-| 8 | Live capture (40,000+ packets) · real alerts fired |
+| 8 | Live capture (200+ packets) · real alerts fired |
 | 9 | OPNsense firewall · CLI hardening · --quiet / --alert-only flags |
 | 10 | 72-hour continuous capture · PPS counter · log rotation · CSV verdict column |
 | 11–12 | Final report · presentation · GitHub · demo video |
