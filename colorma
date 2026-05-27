@@ -1,0 +1,7 @@
+from colorama import Fore, init
+
+init()
+
+print(Fore.GREEN + "NORMAL")
+print(Fore.YELLOW + "WATCH")
+print(Fore.RED + "ALERT")

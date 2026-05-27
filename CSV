@@ -1,0 +1,11 @@
+import os
+import time
+
+rotation_start = time.time()
+
+if time.time() - rotation_start > rotate_minutes * 60:
+    logfile.close()
+
+    filename = f"logs/traffic_{int(time.time())}.csv"
+
+    logfile = open(filename, "w")

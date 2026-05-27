@@ -1,0 +1,24 @@
+import os
+import csv
+
+LOG_DIR = "logs"
+LOG_FILE = os.path.join(LOG_DIR, "traffic.csv")
+
+# Create logs directory if missing
+os.makedirs(LOG_DIR, exist_ok=True)
+
+# Create CSV file if missing
+file_exists = os.path.isfile(LOG_FILE)
+
+with open(LOG_FILE, "a", newline="") as file:
+    writer = csv.writer(file)
+
+    # Add headers only once
+    if not file_exists:
+        writer.writerow([
+            "Timestamp",
+            "Source IP",
+            "Destination IP",
+            "Protocol",
+            "Verdict"
+        ])

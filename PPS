@@ -1,0 +1,7 @@
+packet_count += 1
+
+elapsed = time.time() - start_time
+pps = packet_count / elapsed
+
+print(f"PPS: {pps:.2f}")
+
