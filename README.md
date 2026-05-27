@@ -1,4 +1,4 @@
-# SOC Homelab Dashboard
+# Packet sniffer & Homelab Dashboard
 **Christian Richmond — Cybersecurity Capstone 2026**
 
 A live, interactive Security Operations Center (SOC) dashboard built to visualize and analyze data from a Python packet sniffer running on a Raspberry Pi 5, with Splunk Enterprise as the SIEM backend.
